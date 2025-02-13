@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUEGO 1 sin nombre</title>
+    <link rel="stylesheet" href="../../style/style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>     
+
+</head>
+<body>
+    <div id="j1-temporizador" class="j1-temporizador">Tiempo: 00:00</div>
+
+    <div class="j1-contenedor">
+        <div id="j1-particle-box"></div>
+        <div class="j1-caja-centrada"></div>
+        <div class="j1-caja"></div>
+        <div class="j1-caja"></div>
+        <div class="j1-caja"></div>
+    </div>
+
+    <div id="j1-modalPregunta" class="j1-modal">
+        <div class="j1-contenido-modal">
+            <h2>Pregunta</h2>
+            <p id="j1-textoPregunta"></p>
+            <div class="j1-opciones">
+                <button class="j1-opcion" data-respuesta="A"></button>
+                <button class="j1-opcion" data-respuesta="B"></button>
+                <button class="j1-opcion" data-respuesta="C"></button>
+                <button class="j1-opcion" data-respuesta="D"></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="j1-modalCorrecto" class="j1-modal">
+        <div class="j1-contenido-modal">
+            <h2>¡Correcto!</h2>
+            <p>Has respondido correctamente. Continúa el juego.</p>
+            <button onclick="j1CerrarModalCorrecto()">Aceptar</button>
+        </div>
+    </div>
+
+    <div id="j1-modalFinJuego" class="j1-modal">
+        <div class="j1-contenido-modal">
+            <h2>Fin del juego</h2>
+            <p id="j1-textoFinJuego">¡Has perdido! Has tocado el borde.</p>
+            <!-- Botón de reiniciar -->
+            <button id="reiniciarBtn" onclick="j1ReiniciarJuego()">Reintentar</button>
+            <!-- Botón de continuar -->
+            <button id="continuarBtn" onclick="continuarJuego()" style="display:none;">Continuar</button>
+        </div>
+    </div>
+    <div id="j1-modalPerderVida" class="j1-modal">
+        <div class="j1-contenido-modal">
+            <h2>¡Has perdido una vida!</h2>
+            <p id="j1-mensajePerderVida">Te quedan X vidas.</p>
+            <button onclick="j1CerrarModalPerderVida()">Aceptar</button>
+        </div>
+    </div>
+</body>
+<script src="../../js/jsJoc1.js"></script>
+<script src="../../js/jsJoc1-1.js"></script>
+<script src="../../js/script.js"></script>
+</html>

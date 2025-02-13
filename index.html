@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 3 fonts</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body id="body_index">
+    <div id="div_estrellas"></div>
+        <div id="animated-clouds">
+            <div class="animated-cloud left-cloud1"></div>
+            <div class="animated-cloud left-cloud2"></div>
+            <div class="animated-cloud right-cloud1"></div>
+            <div class="animated-cloud right-cloud2"></div>
+        </div>
+    <header id="header_index">
+        <div class="index-log-reg">
+            <button class="botones-index-log-reg" onclick="location.href='iniciar-sesion.php'">INICIAR SESSIÓ</button>
+            <button class="botones-index-log-reg" onclick="location.href='registrarse.php'">REGISTRAR-SE</button>
+        </div> 
+        <h1 id="index-titulo-principal">LES TRES<br>FONTS</h1>
+        <div class="index-menu">
+            <button class="botones-index-menu" onclick="scrollToHistoria()">HISTÒRIA</button>
+            <button class="botones-index-menu" onclick="location.href='./niveles.html'">JUGAR</button>
+            <button class="botones-index-menu" onclick="scrollToQuiSom()">QUI SOM</button>
+        </div> 
+        <div class="boton-ranking">
+            <button id="ranking"><a href="ranking.html">RANKING</a></button>
+        </div>
+    </header>
+
+    <div class="hisotria">
+        <div id="historia">
+
+            <div class="titulo-boton-subir">
+                <h2 id="titulo-quisom-historia">HISTÒRIA</h2>
+                <button class="subir" onclick="subir()">Pujar</button>
+            </div>
+            <div id="historia-elementos">
+                <div id="historia-descripcion">
+                    <p class="quisom-historia-descripcion">El videojoc "L'Anna i el misteri de les Tres Fonts" té com a protagonista
+                        l'Anna Mujal, una científica especialitzada en la gestió de l'aigua. L'Anna rep una trucada urgent
+                        de l'Institut Escola Tres Fonts de Les Corts perquè les fonts de l'escola han deixat de funcionar.
+                        Aquestes fonts, molt importants simbòlicament per a l'escola, han de ser restaurades. L'Anna,
+                        preocupada per la sequera i la contaminació, comença una investigació que la porta a resoldre cinc
+                        trencaclosques relacionats amb la contaminació de l'aigua. <br><br>
+                        L'Anna es trobarà amb nous desafiaments molt emocionants! 
+                        Primer, haurà de menjar-se uns cucs màgics i, després, respondre unes preguntes molt estranyes. Si les
+                        contesta bé, podrà continuar endavant! 
+                        Després, l'Anna anirà al mar, on li tocarà recollir tota la brossa que hi haurà flotant. Amb la seva
+                        xarxa gegant, ho farà ràpidament i deixarà l'aigua ben neta! 
+                        Més endavant, l'Anna es trobarà amb unes canonades trencades. Haurà de ser molt habilidosa per
+                        arreglar-les una a una fins que tot funcioni perfectament de nou. 
+                        Quan hagi passat aquest repte, es trobarà amb més preguntes, però aquesta vegada seran molt divertides i
+                        haurà de respondre-les amb molta rapidesa! 
+                        Finalment, l'Anna haurà de saltar i esquivar unes rates que intentaran fer-la caure. Amb la seva
+                        velocitat i destresa, saltarà ben alt i aconseguirà guanyar l'últim joc!</p>
+                    </p>
+                </div>
+                    <img id="imagen-quisom-historia" src="imagenes/landing/imagen-historia.jpg" alt="vaca">
+            </div>
+        </div>
+    </div>
+
+    <div class="quisom">
+        <div id="quisom">
+
+            <div class="titulo-boton-subir">
+                <h2 id="titulo-quisom-historia">QUI SOM?</h2>
+                <button class="subir" onclick="subir()">Pujar</button>
+            </div>
+            <div id="quisom-cards">
+                <div class="card">
+                    <div class="icon">
+                        <img class="index-bitmoji" src="imagenes/ivan-jovanovich.png" alt="alexcano">
+                    </div>
+                    <p class="nombre">Ivan</p>
+                    <p class="apellido">Jovanovich</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">
+                        <img class="index-bitmoji" src="imagenes/alex-cano.png" alt="alexcano">
+                    </div>
+                    <p class="nombre">Alex</p>
+                    <p class="apellido">Cano</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">
+                        <img class="index-bitmoji" src="imagenes/eric-concejero.png" alt="ericconcejero">
+                    </div>
+                    <p class="nombre">Eric</p>
+                    <p class="apellido">Concejero</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">
+                        <img class="index-bitmoji" src="imagenes/marc-plans.png" alt="marcplans">
+                    </div>
+                    <p class="nombre">Marc</p>
+                    <p class="apellido">Plans</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">
+                        <img class="index-bitmoji" src="imagenes/ainhoa-blanco.png" alt="ainhoablanco">
+                    </div>
+                    <p class="nombre">Ainhoa</p>
+                    <p class="apellido">Blanco</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

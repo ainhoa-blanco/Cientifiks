@@ -1,0 +1,1553 @@
+/* ESTILOS LANDING PAGE */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/*BOTON GENERAL PARA ATRAS */
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+footer{
+    
+  display: flex;
+  justify-content: center;
+}
+
+#body_index{
+    font-family: "Poppins", serif;
+}
+.back-button{
+  margin: 20px;
+  width: 10rem;
+  height: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #187795;
+  color: white;
+  font-size: 15px;
+}
+
+.back-button:hover{
+  background-color: #10556a;
+}
+
+/*BODY*/
+html, body{
+margin: 0;
+padding: 0;
+height: 100%;
+width: 100%;
+overflow-x: hidden;
+scroll-behavior: smooth;
+}
+
+#body_index{
+background-repeat: no-repeat;
+min-height: 450vh;
+background-image: url(../imagenes/landing/fondo_landing.png);
+}
+
+/*HEADER*/
+
+#header_index{
+    /*DIMENSIONES*/
+    height: fit-content;
+    width: 100%;
+        
+    /*ESTILO*/
+
+    /*MOVIMMIENTO*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-log-reg{
+    /*DIMENSIONES*/
+    width: 100%;
+
+    /*ESTILOS*/
+   
+
+    /*MOVIMIENTO*/
+    display: flex;
+    justify-content: right;
+
+}
+
+
+.botones-index-log-reg{
+    /*DIMENSIONES*/
+    
+    /*ESTILO*/
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+
+    /*MOVIMMIENTO*/
+    margin: 10px;
+    margin-top: 40px;
+    padding-inline: 15px;
+
+}
+
+.botones-index-log-reg:hover{
+    background-color:#10556a;
+}
+
+#ranking{
+    /*DIMENSIONES*/
+    
+    /*ESTILO*/
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #10556a83;
+    font-size: 50px;
+    color:white;
+
+    /*MOVIMMIENTO*/
+    margin: 10px;
+    margin-top: 100px;
+}
+
+#ranking:hover{
+  background-color:#10556a;
+}
+
+#ranking_general{
+  background-color: #B0CA87;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#ranking_general h1{
+  padding-bottom: 7px;
+  color: rgb(0, 0, 0);
+}
+
+.tabla {
+  width: 1200px;
+  height: 600px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabla th, .tabla td {
+  border: 1px solid #0464a4;
+  text-align: center;
+  padding: 8px;
+}
+
+.tabla th {
+  background-color: #809848c7;
+  font-weight: bold;
+}
+
+.tabla tr:nth-child(even) {
+  background-color: #809848c7;
+}
+
+
+/*TITULO*/
+
+    #index-titulo-principal{
+        /*DIMENSIONES*/
+        width: 100%;
+
+        /*ESTILO*/
+        font-size: 9rem;
+        color: #B0CA87;
+        text-align: center;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #140d4f;
+
+        /*MOVIMMIENTO*/ 
+        margin: 0;
+        margin-bottom: 55px;
+        
+    }
+
+/*NAV INDEX*/
+
+    /*BONTES*/
+    .botones-index-menu{
+        /*DIMENSIONES*/
+        width: 14rem;
+    
+        /*ESTILO*/
+        background-color: #187795;
+        border: 2px solid #140d4f;
+        border-radius: 10px;
+        font-size: 30px;   
+        color: white; 
+
+        /*MOVIMMIENTO*/
+        margin-inline: 20px;
+        padding-block: 10px;
+    }
+
+    .botones-index-menu:hover{
+        background-color:#10556a;
+    }
+
+/*HEADER*/
+
+.titulo-boton-subir{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.subir{
+/*DIMENSIONES*/
+width: 227px;
+height: 43px;
+
+/*ESTILO*/
+font-size: 25px;
+color: white;
+border-radius: 10px;
+border: 1px #B0CA87;
+background-color:#187795;
+
+/*MOVIMMIENTO*/
+padding-inline: 20px;
+}
+
+.subir:hover{
+background-color: #10556a;
+}
+
+.hisotria{
+/*DIMENSIONES*/
+width: 100%;
+
+/*ESTILO*/
+
+/*MOVIMMIENTO*/
+margin-top: 45rem;
+display: flex;
+justify-content: center ;
+}
+
+#historia{
+/*DIMENSIONES*/
+width: 70%;
+
+/*ESTILO*/
+/*border: 2px solid black;*/
+border-radius: 10px;
+font-size: 25px;
+
+/*MOVIMMIENTO*/
+padding: 25px;
+
+}
+
+#titulo-quisom-historia{
+
+/*DIMENSIONES*/
+width: fit-content;
+
+/*ESTILOS*/
+border-radius: 10px;
+background-color:#B0CA87;
+
+/*MOVIMIENTO*/        
+padding-inline: 20px;
+}
+
+#historia-elementos{
+/*DIMENSIONES*/
+
+/*ESTILO*/
+
+/*MOVIMMIENTO*/
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+#historia-descripcion{
+width: 54%;
+}
+
+.quisom-historia-descripcion{
+    font-size: 1.2rem;
+margin: 0;
+text-align: justify;
+}
+
+#imagen-quisom-historia{
+/*DIMENSIONES*/
+width: 450px;
+height: 700px;
+
+/*ESTILO*/
+border-radius: 10px;
+
+/*MOVIMMIENTO*/
+display: flex;
+justify-content: center;
+ 
+}
+
+
+.quisom{
+/*DIMENSIONES*/
+width: 100%;
+
+/*ESTILO*/
+
+/*MOVIMMIENTO*/
+margin-top: 45rem;
+display: flex;
+justify-content: center ;
+}
+
+#quisom{
+ /*DIMENSIONES*/
+ width: 70%;
+
+ /*ESTILO*/
+ /*border: 2px solid black;*/
+ border-radius: 10px;
+ font-size: 25px;
+
+ /*MOVIMMIENTO*/
+ display: flex;
+ flex-direction: column;
+ padding: 25px;
+ margin-top: 10rem;
+}
+
+#quisom-cards{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.card {
+/*DIMENSIONES*/
+width: 190px;
+
+/*ESTILO*/
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+background-color: #b3c6a5; /* Verde claro */
+border-radius: 10px;
+
+/*MOVIMMIENTO*/
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+
+}
+
+.index-bitmoji{
+/*DIMENSIONES*/
+height:9rem;
+width:10rem;
+
+/*ESTILO*/
+border-radius: 10px;
+
+/*MOVIMMIENTO*/
+
+}
+
+.nombre {
+/*DIMENSIONES*/
+
+/*ESTILO*/
+color: #000000; 
+font-size: 25px;
+font-weight: bold;
+
+/*MOVIMMIENTO*/
+text-align: center;
+margin: 0;
+margin-top: 25px;
+}
+
+.apellido {
+/*DIMENSIONES*/
+
+/*ESTILO*/
+color: #000000;
+font-size: 25px;
+
+/*MOVIMMIENTO*/
+text-align: center;
+margin: 0;
+}
+
+
+/*INICIAR SESION / REGISTRARSE*/
+
+.body_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../imagenes/landing/fondo_forms.png");
+}
+
+.in-reg-container {
+  background-color: #B0CA87;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 300px;
+  margin: 10% auto;
+  text-align: center;
+}
+
+.tituloForms {
+font-family: "Poppins", serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #809848;
+  border: 2px solid #0464a4;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+  background-color: #187795;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #10556a;
+}
+
+.p_form {
+  font-size: 14px;
+  color: black;
+}
+
+.p_form .a_form {
+  color: #0464a4;
+  text-decoration: none;
+}
+
+.p_form .a_form:hover {
+  text-decoration: underline;
+}
+
+#message{
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+/*BODY*/
+
+
+/*NIVELES*/
+
+    /*BODY*/
+
+    .niveles-body{
+      background-image: url('../imagenes/landing/fondo_landing.png');
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .container {
+      margin: 0 auto;
+      width: 1300px;
+      height: 400px;
+      border: 1px solid lighten(black, 10);
+      display: flex;
+      align-items: center;
+      margin-top: 200px;
+      margin-bottom: 200px;
+    }
+
+    #boton-joc1{
+      background-image: url('../imagenes/landing/juegoIvan.PNG') ;
+    }
+
+    #boton-joc2{
+      background-image: url('../imagenes/landing/juegoCano.png') ;
+    }
+
+    #boton-joc3{
+      background-image: url('../imagenes/landing/juegoEric.png');
+    }
+
+    #boton-joc4{
+      background-image: url('../imagenes/landing/flex-grow-marc.png');
+    }
+    #boton-joc5{
+      background-image: url('../imagenes/landing/juegoAinhoa.png');
+    }
+    
+    /* #boton-joc2:disabled{
+      filter:grayscale(100%);
+    }
+
+    #boton-joc3:disabled{
+      filter:grayscale(100%);
+    }
+    
+    #boton-joc4:disabled{
+      filter:grayscale(100%);
+    }
+
+    #boton-joc5:disabled{
+      filter:grayscale(100%);
+    } */
+
+    .item {
+      flex-grow: 1.5;
+      height: 600px;
+      border: 1px solid black;
+      transition: all 700ms ease-in-out;
+      background-size: 100% 100%; /* Ajustar imagen al tamaño del botón */
+      background-position: center; /* Centra la imagen */
+      background-repeat: no-repeat; /* Evita que la imagen se repita */
+      font-size: 33px;
+      color: white;
+    }
+    
+    .item:hover {
+      flex-grow: 4.3;
+    }
+    
+
+/*PANTALLA PRECARGA*/
+
+  /*BODY*/
+  #niveles-body {
+    background-image: url('../imagenes/landing/fondo_forms.png');
+    flex-direction: column;
+    height: 900px;
+    width: 100vw;
+    overflow: hidden;
+  }  
+  
+    .container-info-niveles{
+      width: fit-content;
+      margin: 0 auto;
+      margin-top: 80px;
+    }
+
+    .info-niveles{
+      width: 60rem;
+      height: 40rem;
+      background-color: #B0CA87;
+      border-radius: 10px;
+
+      padding-inline: 50px;
+    }
+
+    .titulo-info-niveles{
+      font-size: 40px;
+
+      padding-top: 20px;
+    }
+
+    .descripcion-info-niveles{
+      width: 50%;
+      font-size: 20px;
+      text-align: justify;
+    }
+
+    .imagen-nivel{
+      margin-left: 170px ;
+      margin-top: -200px;
+      border-radius: 10px;
+      width: 300px;
+      height: 480px;
+    }
+
+    #imagen-nivel-ainhoa{
+      position: absolute;
+      top: 350px;
+      left: 900px;
+    }
+    
+
+    .precarga-div-boton-empezar{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .precarga-boton-emepzar{
+       /*DIMENSIONES*/
+      width: 50%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      /*ESTILO*/
+      border: 1px solid  #187795;
+      border-radius: 10px;
+      background-color: #187795;
+      font-size: 30px;
+      color: white;
+
+      /*MOVIMMIENTO*/
+      margin-top: 40px;
+      padding-block: 10px;
+    }
+
+    .precarga-boton-emepzar:hover{
+      background-color: #10556a;
+    }
+
+/* ESTILOS Y POSICIONES (ESTRELLAS Y NUBES) */
+
+/*estrellas ocultas */
+.estrella {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+#div_estrellas{
+  z-index: -1;
+  position: absolute;
+  height: 900px;
+  width: 100%;
+}
+
+/* animacion grande pequeño */
+@keyframes creixerDecreixer {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.5);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+/* Contenedor de las nubes animadas */
+#animated-clouds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+/* Estilo base de las nubes animadas */
+.animated-cloud {
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  width: 250px;
+  height: 80px;
+}
+
+.animated-cloud:before,
+.animated-cloud:after {
+  content: '';
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.animated-cloud:before {
+  width: 120px;
+  height: 100px;
+  top: -20px;
+  left: 15px;
+  transform: rotate(30deg);
+}
+
+.animated-cloud:after {
+  width: 140px;
+  height: 140px;
+  top: -60px;
+  right: 20px;
+  transform: rotate(30deg);
+}
+
+/* Nubes que se mueven hacia la izquierda */
+.left-cloud1 {
+  top: 25%;
+  left: 100%;
+  transform: scale(1.6);
+  opacity: 0.85;
+  animation: moveclouds-left 25s linear infinite;
+}
+
+.left-cloud2 {
+  top: 55%;
+  left: 110%;
+  transform: scale(1.3);
+  opacity: 0.75;
+  animation: moveclouds-left 30s linear infinite;
+}
+
+/* Nubes que se mueven hacia la derecha */
+.right-cloud1 {
+  top: 35%;
+  left: -300px;
+  transform: scale(1.2);
+  opacity: 0.8;
+  animation: moveclouds-right 28s linear infinite;
+}
+
+.right-cloud2 {
+  top: 65%;
+  left: -350px;
+  transform: scale(1.5);
+  opacity: 0.7;
+  animation: moveclouds-right 32s linear infinite;
+}
+
+/* Animación para nubes que se mueven hacia la izquierda */
+@keyframes moveclouds-left {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: -300px;
+  }
+}
+
+/* Animación para nubes que se mueven hacia la derecha */
+@keyframes moveclouds-right {
+  0% {
+    left: -300px;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+/*JOC2*/
+/* Contenedor del juego */
+.game-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url('../imagenes/alex/background.webp'); /* Fondo de mar */
+  background-size: cover;
+}
+
+#background2{
+  width: 100%;
+  height: 25rem;
+  position: absolute;
+  z-index: 2;
+}
+
+
+/* Temporizador */
+#timer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  color: white;
+  z-index: 3;
+}
+
+/* Gancho */
+#hook {
+  position: absolute;
+  margin-top:-120px;
+  top: 20%;
+  left: 50%;
+  width: 100px;
+  height: 600px;
+  background-image: url('../imagenes/alex/gancho.png');
+  background-size: contain; /* Ajusta el tamaño de la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  
+  transition: top 0.1s;
+}
+
+/* Basura */
+.trash {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  
+  background-size:contain; /* Ajusta la imagen para cubrir todo el div */
+  background-repeat: no-repeat;
+}
+
+#bicicleta{
+  background-image: url('../imagenes/alex/basura-bici.png');
+}
+#lata{
+  background-image: url('../imagenes/alex/basura-lata.png'); 
+}
+#bolsa{
+  background-image: url('../imagenes/alex/basura-bolsa.png'); 
+}
+#rueda{
+  background-image: url('../imagenes/alex/basura-rueda.png'); 
+}
+#rolloPapel{
+  background-image: url('../imagenes/alex/basura-papel.png'); 
+}
+
+/* Peces*/
+.pez {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  
+  background-size:contain; /* Ajusta la imagen para cubrir todo el div */
+  background-repeat: no-repeat;
+}
+
+#pezrojo{
+background-image: url('../imagenes/alex/pezrojo.png');
+}
+#pezazul{
+  background-image: url('../imagenes/alex/pezazul.png');
+}
+#pezamarillo{
+  background-image: url('../imagenes/alex/pezamarillo.png');
+}
+#pezverde{
+  background-image: url('../imagenes/alex/pezverde.png');
+}
+#pezrosa{
+  background-image: url('../imagenes/alex/pezrosa.png');
+}
+  
+#score {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: white;
+  z-index: 3;
+}
+
+/*JOC 3*/
+.imagen-nivel-eric{
+  position: absolute;
+  top: 350px;
+  left: 900px;
+}
+
+.bodyEric{
+  background-image: url(../imagenes/eric/EricFondoJuego.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*primera pantalla*/
+#flecha1{
+  margin-left: 40px;
+}
+#flecha2{
+  margin-left: 40px;
+}
+#flecha3{
+  margin-left: 40px;
+}
+
+#flechaGrieta1{
+  /* border: 2px solid; */
+  /* border-color: aqua; */
+  width: 150px;
+
+  position: absolute;
+  bottom: 260px;
+  left: 420px;
+}
+/*contadors*/
+.contador{
+  z-index: 1;
+  margin-top: 60px;
+
+  position: absolute;
+  top: -65px; /* Ajusta este valor para mover el div hacia abajo */
+  left: 600px; /* Ajusta este valor para mover el div hacia la derecha */
+  padding: 10px;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 5px;
+
+ 
+  /*CONFIGURACION GRID*/
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 50px;
+  justify-content: center;
+  align-content: center;
+}
+
+#temps, #moviments-fets, #moviments-restants {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px; /* Ajusta el tamaño de la fuente para que se vea bien */
+}
+
+#temps{
+  background-color:rgba(21, 65, 209, 1);
+  border: solid 2px;
+  border-color: aqua;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#moviments-fets{
+  background-color:rgba(21, 65, 209, 1);
+  border: solid 2px;
+  border-color: aqua;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#moviments-restants{
+  background-color:rgba(21, 65, 209, 1);
+  border: solid 2px;
+  border-color: aqua;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*modal estils*/
+.custom-alert {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.8);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Contenido del modal */
+.alert-content {
+  background-color: #2e2e2e;
+  color: white; /* Texto blanco */
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  width: 80%;
+  width: 400px; /* Tamaño máximo del modal */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra sutil para profundidad */
+  animation: slideUp 0.3s ease-out; /* Animación de aparición */
+}
+
+.alert-content h2 {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+  font-weight: 600; /* Negrita para el título */
+  letter-spacing: 1px;
+}
+
+#closeAlertButton img{
+  height: 30px;
+}
+
+#closeAlertButton {
+  padding: 12px 25px;
+  background-color: #2e2e2e;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#closeAlertButton:hover {
+  transform: scale(1.2);
+}
+
+/* Animación de entrada con deslizamiento */
+@keyframes slideUp {
+  from {
+      transform: translateY(50px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+
+.divPuzzle{
+  height: 800px;
+  width: 800px;
+  border: 2px solid;
+  background-color: rgba(25, 77, 126, 0.9);
+  border-color: aqua;
+  align-content: center;
+  border-radius: 40px;
+  
+  /*POSICIONAR EN EL CENTRO*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  /*CONFIGURACION GRID*/
+  display: grid;
+  grid-template-columns: repeat(7, 100px);
+  grid-template-rows: repeat(7, 100px);
+  gap: 0px;
+  justify-content: center;
+  align-content: center;
+}
+
+.divPuzzle .grid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-principio{
+  background-color:rgba(218, 18, 85, 0.3);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-final{
+  background-color:rgba(209, 197, 21, 0.7);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divPuzzle img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.info{
+
+  margin-top: 70px;
+  margin-left: 100px;
+
+  width: 400px;
+  height: 900px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /*CONFIGURACION GRID*/
+  display: grid;
+  grid-template-columns: 80px 200px;
+  grid-template-rows: 80px 80px 80px;
+  gap: 10px;
+
+}
+
+.norma img{
+  width: 100%;
+  height: 100%;
+}
+
+.info{
+  height: 350px;
+
+  background-color: rgba(25, 77, 126, 0.9);
+  border-radius: 10%;
+  border: solid 2px ;
+  border-color: aqua;
+  align-content: center;
+}
+
+.info .norma {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* JOC 5 ainhoa*/
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.shake {
+  animation: shake 0.5s; /* Duración de la animación */
+  animation-timing-function: ease-in-out;
+}
+
+#joc5part1{
+  background-image: url(../imagenes/ainhoa/fonspart1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#joc5part2{
+  background-image: url(../imagenes/ainhoa/fonspart2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#manivela_ainhoa{
+  position: absolute;
+  left: 445px;
+  top: 415px;
+}
+
+#fletxa_ainhoa{
+  position: absolute;
+  left: 490px;
+  top: 340px;
+}
+
+#personatge_anna{
+  position: absolute;
+  left: 1190px;
+  top: 130px;
+  height: 50%;
+}
+
+#terra_ainhoa {
+  position:absolute;
+  bottom: 0;
+  height: 30%;
+  width: auto;
+}
+
+#terra_ainhoa2 {
+  position:absolute;
+  bottom: 0;
+  height: 30%;
+  width: auto;
+}
+
+#anna_gif{
+  position: absolute;
+  height: 420px;
+  z-index: 1;
+  top: 370px;
+  left: 300px;
+  transition: transform 0.3s ease;
+  /* border: #fff solid 1px; */
+}
+
+#tuberia_ainhoa{
+  position: absolute;
+  height: 15%;
+  z-index: 1;
+  top: 670px;
+}
+
+#rata_ainhoa{
+  position: absolute;
+  height: 8%;
+  z-index: 1;
+}
+
+.rata {
+  position: absolute;
+  height: 8%;
+  z-index: 1;
+  /* border: #fff solid 1px; */
+}
+
+#info_ainhoa{
+  background-color: #809848cb;
+  color: #fff;
+  width: 10%;
+  border-radius: 20px;
+  padding: 3px 30px 3px 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* juego marc */
+#ratoli-marc{
+  height: 300px;
+  width: auto;
+}
+
+.imagen-nivel-marc{
+  position: absolute;
+  top: 350px;
+  left: 900px;
+}
+
+#body-marc{
+  background-color: #140d4f;
+}
+
+#jocmarc {
+  background-image: url('../imagenes/marc/imagenfondo.jpg');
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#contenedor-juego{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 70%;
+  width: 70%;
+  background-image: url('../imagenes/marc/fondocontainer.jpg');
+  border: 25px solid #0017ab ;
+
+}
+
+.imagen-enemigo{
+  position: absolute;
+  /* border: 2px solid white; */
+  
+}
+
+.imagen-agua{
+  position: absolute;
+  /* border: 2px solid white; */
+}
+
+.imagen-anna{
+  position: absolute;
+  width: 4%;
+}
+
+.imagen-espada{
+  position: absolute;
+}
+
+.text-panel{
+  color: white;
+  top: 0;
+  left: 0;
+}
+
+.item-bueno{
+  -webkit-box-shadow: 0px 0px 38px 4px rgba(5,250,46,1);
+  -moz-box-shadow: 0px 0px 38px 4px rgba(5,250,46,1);
+  box-shadow: 0px 0px 38px 4px rgba(5,250,46,1);
+}
+
+.item-malo{
+  -webkit-box-shadow: 0px 0px 38px 4px rgba(250,5,42,1);
+  -moz-box-shadow: 0px 0px 38px 4px rgba(250,5,42,1);
+  box-shadow: 0px 0px 38px 4px rgba(250,5,42,1);
+}
+
+#contenedor-juego .item{
+  width: 50px;
+  height: 50px;
+}
+
+#espada{
+  width: 50px;
+  height: 50px;
+}
+
+html body .contentModal{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.endGameText, .scoreText, .modalbutton{
+  margin: 100px;
+}
+
+/* JOC 1 */
+body.j1-body {
+  background: #262626;
+}
+
+.j1-temporizador {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.j1-contenedor {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(0deg, #212a5a, #03a9f4);
+  overflow: hidden;
+}
+
+.j1-contenedor #j1-particle-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.j1-contenedor .j1-box {
+  position: absolute;
+  transform: translate(0, -50%);
+  width: 300px;
+  height: 100px;
+}
+
+.j1-contenedor .j1-box:nth-last-of-type(1) {
+  top: 20%;
+  left: 0;
+  background: url(http://assets.stickpng.com/images/5856aa314f6ae202fedf276f.png);
+  background-size: 100px 50px;
+  animation: j1-animate1And3 4s infinite linear;
+}
+
+.j1-contenedor .j1-box:nth-last-of-type(2) {
+  top: 50%;
+  right: 0;
+  background: url(http://assets.stickpng.com/images/580b57fbd9996e24bc43bbf6.png);
+  background-size: 100px 50px;
+  animation: j1-animate2 4s infinite linear;
+}
+
+.j1-contenedor .j1-box:nth-last-of-type(3) {
+  top: 80%;
+  left: 0;
+  background: url(https://lh3.googleusercontent.com/proxy/OuD0wDJDdSO6-MLCzU8LPLHdsxTd0BwNvHxRo3nOgmYWblw8KTBn4Z_73n1v7mg5Jvh3xmTQZ-EQfapzlv7FNKQy_O7Vzyc);
+  background-size: 100px 50px;
+  animation: j1-animate1And3 4s infinite linear;
+}
+
+@keyframes j1-animate1And3 {
+  0% {
+      left: -300px;
+  }
+  100% {
+      left: 100%;
+  }
+}
+
+@keyframes j1-animate2 {
+  0% {
+      right: -300px;
+  }
+  100% {
+      right: 100%;
+  }
+}
+
+body.j1-body, html.j1-html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.j1-caja-centrada {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  border-radius: 10px;
+}
+
+
+/* Estilos para el modal */
+.j1-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.j1-modal-content {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos comunes para los modales */
+.j1-modal h2 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.j1-modal p {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.j1-modal button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.j1-modal button:hover {
+  background-color: #0056b3;
+}
+
+
+.j1-contenedor #j1-particle-box{
+    position: absolute;
+    top: 0;   left: 0;
+    width: 100%;   height: 100%;
+}
+.j1-contenedor .j1-caja{
+    position: absolute;
+    transform: translate(0,-50%);
+    width: 300px;  height: 100px;
+}
+.j1-contenedor .j1-caja:nth-last-of-type(1){
+    top: 20%;  left: 0;  
+    background: url(http://assets.stickpng.com/images/5856aa314f6ae202fedf276f.png);
+    background-size: 100px 50px;
+    animation: animate1And3 4s infinite linear;
+}
+.j1-contenedor .j1-caja:nth-last-of-type(2){
+    top: 50%;    right: 0;
+    background: url(http://assets.stickpng.com/images/580b57fbd9996e24bc43bbf6.png);
+    background-size: 100px 50px;
+    animation: animate2 4s infinite linear;
+}
+.j1-contenedor .j1-caja:nth-last-of-type(3){
+    top: 80%;  left: 0;
+    background: url(https://lh3.googleusercontent.com/proxy/OuD0wDJDdSO6-MLCzU8LPLHdsxTd0BwNvHxRo3nOgmYWblw8KTBn4Z_73n1v7mg5Jvh3xmTQZ-EQfapzlv7FNKQy_O7Vzyc);
+    background-size: 100px 50px;
+    animation: animate1And3 4s infinite linear;
+}
+
+@keyframes animate1And3{
+    0%{
+        left: -300px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+@keyframes animate2{
+    0%{
+        right: -300px;
+    }
+    100%{
+        right: 100%;
+    }
+}
+
+.invulnerable {
+  opacity: 0.5; /* Cambia la opacidad para indicar invulnerabilidad */
+}
