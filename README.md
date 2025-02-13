@@ -28,6 +28,13 @@ El proyecto fue desarrollado en un grupo de cinco personas, y cada miembro tení
 - **Bases de datos**: MySQL.
 - **Despliegue**: VistaPanel.
 
+## Instalación
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/ainhoa-blanco/Cientifiks.git
+   ```
+2. Abrir el archivo `index.html` en un navegador.
+
 ## Autores
 Desarrollado por Alex Cano, Ivan Jovanovich, Eric Concejero, Marc Plans y Ainhoa Blanco.
 
